@@ -1,0 +1,18 @@
+---
+# About SCSS
+---
+
+.me {
+  max-width: 200px;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 0.75rem black;
+}
+
+h3 a:hover {
+  font-weight: bold;
+}
+
+.quote,
+.quote > *{
+  text-align: center !important;
+}
