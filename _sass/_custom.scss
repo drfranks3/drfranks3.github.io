@@ -5,7 +5,8 @@ ul#website-links {
   padding: 20px 5% 0 0;
   text-align: right;
 
-  a, a:hover {
+  a,
+  a:hover {
     color: #000;
     text-decoration: none;
   }
@@ -23,7 +24,8 @@ ul#website-links {
     margin-right: 0;
   }
 
-  li:after, li.active:after {
+  li:after,
+  li.active:after {
   	content: '';
   	display: block;
   	margin: auto;
