@@ -8,11 +8,30 @@
   box-shadow: 0 0 0.75rem black;
 }
 
-h3 a:hover {
-  font-weight: bold;
+h3.passion {
+  text-align: center;
+  font-size: 25px;
 }
 
-.quote,
-.quote > *{
-  text-align: center !important;
+section#social-media {
+  text-align: center;
+  font-size: 30px;
+
+  a {
+    padding: 0 10px;
+  }
+}
+
+p#quote {
+  @extend .center;
+  font-style: italic;
+}
+
+ul#skills {
+  @extend .center;
+  list-style-type: none;
+}
+
+.center {
+  text-align: center;
 }

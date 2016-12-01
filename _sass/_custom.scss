@@ -4,6 +4,7 @@ ul#website-links {
 
   padding: 20px 5% 0 0;
   text-align: right;
+  font-family: "Work Sans", $base-font-family;
 
   a,
   a:hover {
@@ -37,7 +38,7 @@ ul#website-links {
 
   li:hover:after, li.active:after {
   	width: 100%;
-  	background: #111;
+  	background: #000;
   }
 }
 
@@ -47,18 +48,22 @@ ul#website-links {
 
   & p,
   & ul, {
-    font: 1.5rem $base-font-family;
-    line-height: 2rem;
-    text-align: justify;
+    font: 300 1.65rem $base-font-family;
+    line-height: 3rem;
+    color: rgba(0, 0, 0, .75);
+  }
+
+  strong {
+    font-weight: 400;
   }
 }
 
 h2 {
-  font: 500 40px "Museo", $base-font-family;
+  font: 600 40px "Crimson Text", $base-font-family;
 }
 
-h3 {
-  font: 300 20px "Museo", $base-font-family;
+h3, #school {
+  font: 600 20px "Crimson Text", $base-font-family;
 }
 
 hr {
@@ -67,6 +72,19 @@ hr {
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.code {
+  font-family: Monaco, $base-font-family;
+}
+
+.gold-em {
+  color: #B49759;
+  font-weight: 400;
 }
 
 /* COLOR: #262F36 */

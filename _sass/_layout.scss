@@ -3,18 +3,39 @@
  */
 
 .site-title {
-    font: 700 26px/1 "Museo", $base-font-family;
+    font: 100 26px/1 "mplus-1m", $base-font-family;
     margin-bottom: 0;
     float: left;
     padding: 20px 5%;
     vertical-align: top;
 
+    @extend .upper;
+
     &,
     &:visited {
-        color: #688FAD;
+      color: #000;
     }
 
     &:hover {
       text-decoration: none;
+    }
+
+    &:after {
+    	content: '';
+    	display: block;
+    	margin: auto;
+    	height: 2px;
+    	width: 0px;
+    	background: transparent;
+    	transition: width .3s, background-color .5s;
+    }
+
+    &:hover:after {
+    	width: 100%;
+    	background: #000;
+    }
+
+    span {
+      font-weight: 400;
     }
 }
