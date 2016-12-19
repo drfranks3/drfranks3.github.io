@@ -19,15 +19,6 @@ h1#name {
     font-weight: 400;
   }
 
-  /*
-  @include media-query($on-palm) {
-    font-size: 34px;
-  }
-
-  @include media-query($on-laptop) {
-    font-size: 60px;
-  }
-  */
 }
 
 .header {
@@ -86,4 +77,43 @@ section#social-media {
 
   }
 
+}
+
+.navbar {
+  min-height: auto;
+}
+
+.navbar-toggle {
+  position: relative !important;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  h1#name {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 12px
+  }
+
+  ul#website-links {
+    li:hover a,
+    li a:hover {
+      color: #303030 !important
+    }
+  }
+
+  section#social-media {
+
+    & i {
+      padding: 0 12px
+    }
+
+    & .fa {
+      &::before {
+        font-size: 20px;
+      }
+    }
+  }
 }
