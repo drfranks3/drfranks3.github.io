@@ -1,37 +1,91 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Donald Franks</title>
-        <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    </head>
+<head>
+  <title>Donald Franks</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Donald Franks">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <body>
-        <div class="page-content">
-            <div class="wrapper">
-              <span id="name">Donald Franks</span>
-              <div id="contact">
-                <a href="https://www.flickr.com/photos/143893005@N04/">Photos</a>
-                  <div class="separator">|</div>
-                <a href="mailto:dfranks@berkeley.edu">Email</a>
-                  <div class="separator">|</div>
-                <a href="resume.pdf">R&#233;sum&#233;</a>
-                  <div class="separator">|</div>
-                <a href="https://github.com/drfranks3">GitHub</a>
-                  <div class="separator">|</div>
-                <a href="https://linkedin.com/in/drfranks3">LinkedIn</a>
-              </div>
-              <p>Hello, there! I'm <strong>Donald</strong>, and I am a 4th year student at the <strong>University of California, Berkeley</strong>.
-                I'm a mellow guy looking to inspire others through innovation and motivation.
-                I love to learn new things, experience new cultures, and immerse myself in productive environments.
-              </p>
-              <p>
-                From the age of 14, I began coding with an extremely simple Javascript <code>XMLHttpRequest</code>.
-                I was captivated by the capabilities of sheer <i>text on a screen</i>, and for the next seven years,
-                I continued to expand my knowledge and learn new methods and technologies.
-              </p>
-              <p>This summer I will be interning with <strong>Apple Inc.</strong></p>
-            </div>
+  <!-- Fav Icon -->
+  <link rel="icon" href="#">
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="#">
+  <!-- Font Awesome Icon -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" rel="stylesheet">
+  <!-- Materialize -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" rel="stylesheet">
+  <!-- Animate CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <!-- Default Style same as style-blue-grey -->
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<div id="header" class="shadow">
+  <!-- Name and Status -->
+  <div id="intro" class="container animated fadeInDown">
+    <h1 class="text-center text-capitalize">Donald Franks</h1>
+    <h4 class="text-center"><b>Independent Contractor</b> at <b>Apple Inc.</b</h4>
+  </div>
+</div>
+<section id="about" class="section">
+  <div class="container">
+    <div class="row">
+    <div class="col col-md-12">
+
+      <!-- Profile Picture [Square] -->
+      <div id="profile" class="center-block animated zoomIn">
+          <img src="/profile-pic.jpg">
       </div>
-    </body>
-</html>
+
+      <!-- Social Links -->
+      <div id="intro-div" class="card content-wrapper animated fadeInUp">
+          <ul class="text-center list-inline">
+              <li><a href="https://www.flickr.com/photos/143893005@N04/" target="_blank"><i class="fa fa-camera-retro"></i></a></li>
+              <li><a href="mailto:dfranks@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="https://stackoverflow.com/users/303861/drfranks3" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+              <li><a href="https://github.com/drfranks3" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+              <li><a href="https://linkedin.com/in/drfranks3" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+
+          <!-- Some Intro About You -->
+          <div class="row">
+            <div class="col col-xs-12 col-sm-12 col-md-10">
+              <p>
+                Hello, there! I'm <b>Donald</b>, and I am a 4th year student at the <b>University of California, Berkeley</b>. I'm a mellow guy looking to inspire others through innovation and motivation. I love to learn new things, experience new cultures, and immerse myself in productive environments.
+                From the age of 14, I began coding with an extremely simple Javascript <code>XMLHttpRequest</code>. I was captivated by the capabilities of sheer text on a screen, and for the next seven years, I continued to expand my knowledge and learn new methods and technologies.
+                This summer I will be interning with <b>Apple Inc.</b>
+              </p>
+            </div>
+            <div id="wave" class="col col-xs-12 col-sm-12 col-md-2 text-center">
+              <span style="font-size:100px">&#128075;&#127997;</span>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col col-xs-12 col-sm-12 col-md-12 text-center">
+                  <a href="resume.pdf" class="btn waves-effect waves-light btn-primary custom-btn"><i class="fa fa-file-text left"></i>Resume</a>
+                  <a href="mailto:dfranks@berkeley.edu" class="btn waves-effect waves-light btn-primary custom-btn"><i class="fa fa-envelope left"></i>Contact Me</a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
