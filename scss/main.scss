@@ -15,13 +15,15 @@ Primary
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 body {
   position: relative;
   background-color: #003262;
   font-family: 'Roboto';
   font-size: 2.5rem;
-  overflow-x: hidden;
 }
 a {
   color: #FFF;
@@ -53,6 +55,7 @@ main {
     flex-direction: row;
     #profile {
       margin-left: -10px;
+      margin-top: 10px;
     }
     #right {
       margin-left: reset;
@@ -71,9 +74,9 @@ Main Stuff
   height: 180px;
   max-width: 50%;
   width: 180px;
-  margin-left: 35px;
+  margin-left: 25px;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 35px;
   padding: 5px;
   background-color: #fff;
   border-radius: 50%;
@@ -106,7 +109,7 @@ Main Stuff
 }
 
 #right {
-  margin-left: -650px;
+  margin-left: -675px;
   width: 200px;
   text-align: center;
 }
