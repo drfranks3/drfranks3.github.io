@@ -49,12 +49,16 @@ main {
   flex-direction: column;
   height: 100%;
   margin: -20px auto 0 20%;
-  width: 400px;
+  width: 500px;
 }
 @media (min-width: $sm) {
   main {
     flex-direction: row;
     width: 900px;
+    #intro {
+      h1 { font-size: 4.2rem; }
+      h4 { font-size: 2.28rem; }
+    }
     #profile {
       margin-left: -10px;
       margin-top: 10px;
@@ -101,22 +105,25 @@ Main Stuff
     span { font-weight: 500; }
   }
   h1 {
-    font-size: 4.2rem;
+    font-size: 2.8rem;
     margin: 2.1rem 0 1.68rem 0;
   }
   h4 {
-    font-size: 2.28rem;
+    font-size: 0.84rem;
     margin: -20px 0 .912rem 0;
   }
 }
 
 #right {
-  margin-left: -175px;
+  margin-left: -272px;
   width: 200px;
   text-align: center;
 }
 
-#social-media { margin-top: 2rem; }
+#social-media {
+  margin-left: 15px;
+  margin-top: 2rem;
+}
 
 /* --------------------------------
 Animations
