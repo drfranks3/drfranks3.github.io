@@ -64,11 +64,14 @@ main {
       margin-top: 10px;
     }
     #right {
-      margin-left: reset;
+      margin-left: 0;
       margin-top: 20px;
       width: 700px;
       text-align: left;
-      #social-media { margin-top: 0; }
+      #social-media {
+        margin-left: 0;
+        margin-top: 0;
+      }
     }
   }
 }
