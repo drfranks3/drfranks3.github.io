@@ -2,9 +2,10 @@ var i = 0,
     things = ['take photographs',
               'develop websites',
               'am always learning',
-              'am a UC Berkeley student',
+              'am a UC Berkeley graduate',
               'live in the SF Bay Area',
               'design the web',
+              'can balance a budget',
               'love Korean food',
               'enjoy going on adventures'];
 $(function(){
